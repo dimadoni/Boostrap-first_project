@@ -1,0 +1,3953 @@
+body,html {
+    background: url("img/Background.png");
+}
+@font-face {
+    font-family:Myriad pro, semibold, Myriad Pro Light;
+    font-style: normal;
+    font-weight: normal;
+}
+@media(min-width:484px) and (max-width:767px){
+    html{
+        width: 500px;
+    }
+    .separator_left_bar{
+        position: relative;
+        bottom:23px;
+        left:158px;
+    }
+    .next_left_bar{
+        position: relative;
+        left:131px;
+        bottom:22px;
+    }
+    .text_leftbar17{
+        font-size: 10px;
+    }
+    .text_leftbar16{
+        font-size: 12px;
+    }
+    footer{
+        position: relative;
+        top:0px;
+        height: 70px;
+    }
+    .footer1{
+        background: #1f1f1f;
+        height: 70px;
+    }
+    .content_search_box{
+        position: relative;
+        bottom: 35px;
+    }
+    .control_panel{
+        background: bisque;
+        height:170px;
+    }
+    .search_box{
+        position: relative;
+        height:50px;
+    }
+    .content_BG_search{
+        position: relative;
+        bottom: 50px;
+        height:50px;
+    }
+    .Login_box{
+        height:50px;
+    }
+    .logo{
+        height:50px;
+    }
+    .Sing_Up_Icon{
+        float: right;
+        position: relative;
+        top:5px;
+    }
+    .Separator_BG_search{
+        position: relative;
+        top:12px;
+    }
+    .text_1{
+        height:25px;
+    }
+    .text_1>p{
+        position: relative;
+        left:15px;
+    }
+    .text_2 {
+        height:25px;
+    }
+    .text_2>p{
+        position: relative;
+        left:5px;
+    }
+    .Search_BOX{
+        position: relative;
+        left:305px;
+    }
+    .separator_search_box2{
+        position: relative;
+        float: right;
+        left:20px;
+    }
+    .Arrow_search_box{
+        left:70px;
+        position: relative;
+    }
+    .text_box2{
+        position: relative;
+        left:170px;
+    }
+    .separator_search_box1{
+        position: relative;
+        left:210px;
+    }
+    .text_box1{
+        position: relative;
+        left:285px;
+        font-style: italic;
+    }
+    .search{
+        position: relative;
+        left:320px;
+    }
+    .menu_line{
+        width:1135px;
+    }
+    .menu{
+        position: relative;
+        top:42px;
+    }
+    .menu_icon{
+        position: relative;
+        bottom:20px;
+    }
+    .menu_icon1{
+        float: right;
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        bottom:2px;
+        position: relative;
+    }
+    .menu_icon2{
+        float: right;
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:25px;
+    }
+    .menu_icon3{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:100px;
+    }
+    .menu_icon4{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:60px;
+    }
+    .menu_icon5{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:30px;
+    }
+    .menu_icon6{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        float: right;
+        right:20px;
+        bottom:2px;
+    }
+    .menu_icon7{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        float: right;
+        right:65px;
+        bottom:4px;
+    }
+    .menu_icon8{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        bottom:4px;
+    }
+    .menu_name{
+        position: relative;
+        bottom:10px;
+    }
+    .menu_name1{
+        float: right;
+    }
+    .menu_name2{
+        float: right;
+        position: relative;
+        right:47px;
+    }
+    .menu_name3{
+    }
+    .menu_name4{
+        float: right;
+        position: relative;
+        right:50px;
+    }
+    .menu_name5{
+        float: right;
+        position: relative;
+    }
+    .menu_name6{
+        float: right;
+        position: relative;
+        right:7px;
+    }
+    .menu_name7{
+        position: relative;
+        left:73px;
+    }
+    .menu_name8{
+        position: relative;
+        left:4px;
+    }
+    .main{
+    }
+    .central_content{
+        height:925px;
+    }
+    .Magazines_place{
+        height:276px;
+        margin-top: 15px;
+    }
+    .submenu{
+        height:372px;
+    }
+    .submenu>.row{
+        height:372px;
+    }
+    .submenu1{
+        padding:3px;
+        background: #555555;
+        font-size: 12px;
+    }
+    .icon_submenu1{
+        position: relative;
+        left:17px;
+    }
+    .name_submenu1{
+        position: relative;
+        top:10px;
+        color:#dadada;
+        font-size: 11px;
+    }
+    .submenu2{
+        position: relative;
+        top:25px;
+        padding:1px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu2{
+        position: relative;
+        left:17px;
+    }
+    .name_submenu2{
+        position: relative;
+        top:10px;
+        left:15px;
+        color:#777777;
+    }
+    .submenu3{
+        position: relative;
+        top:50px;
+        padding:2px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu3{
+        position: relative;
+        left:15px;
+    }
+    .name_submenu3{
+        position: relative;
+        top:10px;
+        left:3px;
+        color:#777777;
+    }
+    .submenu4{
+        position: relative;
+        top:75px;
+        padding:1px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu4{
+        position: relative;
+        left:15px;
+    }
+    .name_submenu4{
+        position: relative;
+        top:10px;
+        left:10px;
+        color:#777777;
+    }
+    .submenu5{
+        position: relative;
+        top:100px;
+        padding:1px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu5{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu5{
+        position: relative;
+        top:10px;
+        left:7px;
+        color:#777777;
+    }
+    .submenu6{
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu6{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu6{
+        position: relative;
+        top:10px;
+        left:8px;
+        color:#777777;
+    }
+    .submenu7{
+        position: relative;
+        top:25px;
+        padding:1px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu7{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu7{
+        position: relative;
+        top:10px;
+        left:10px;
+        color:#777777;
+    }
+    .submenu8{
+        position: relative;
+        top:50px;
+        padding:1px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu8{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu8{
+        position: relative;
+        top:10px;
+        left:12px;
+        color:#777777;
+    }
+    .submenu9{
+        position: relative;
+        top:75px;
+        padding:1px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu9{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu9{
+        position: relative;
+        top:10px;
+        left:15px;
+        color:#777777;
+    }
+    .submenu10{
+        position: relative;
+        top:101px;
+        padding:3px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu10{
+        position: relative;
+        left:15px;
+    }
+    .name_submenu10{
+        position: relative;
+        top:10px;
+        left:15px;
+        color:#777777;
+    }
+    .filter{
+        height:40px;
+    }
+    .filter_text1{
+        text-align: center;
+        padding:4px 19px;
+        font-size: 12px;
+        color:#ffffff;
+        background:#555555;
+    }
+    .filter_text2{
+        text-align: center;
+        padding:4px 19px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text3{
+        text-align: center;
+        padding:4px 19px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text4{
+        text-align: center;
+        padding:4px 19px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text5{
+        text-align: center;
+        padding:4px 6px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text6{
+        text-align: center;
+        padding:4px 19px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .choice1_filter{
+        position: relative;
+        bottom:5px;
+        left:18px;
+    }
+    .slider{
+        height:332px;
+    }
+    .front_controler_slider{
+        float:right;
+    }
+    .text1_controler_slider{
+        float:right;
+        position: relative;
+        right:55px;
+        background:#fdcc05;
+        padding:3px 6px;
+        bottom:1px;
+        color:white;
+    }
+    .text2_controler_slider{
+        float:right;
+        position: relative;
+        right:10px;
+        top:3px;
+        color:white;
+    }
+    .text3_controler_slider{
+        float:right;
+        position: relative;
+        left:25px;
+        top:3px;
+        color:white;
+    }
+    .control_slider,.control_slider>.row,.control_slider1,.control_slider1>.row{
+        height:30px;
+    }
+    .control_slider1{
+        position: relative;
+        bottom:280px;
+        left:19px;
+    }
+    .Content_controler_slider{
+        position: relative;
+        bottom:30px;
+        font-size: 18px;
+        float: right;
+    }
+    .separator_switcher1{
+        float: right;
+        position: relative;
+        top:2px;
+    }
+    .separator_switcher2{
+        float: right;
+        position: relative;
+        right:20px;
+        top:2px;
+    }
+    .pic1_slider{
+        position: relative;
+        left:45px;
+    }
+    .control_panel_slider1{
+        position: absolute;
+        top:226px;
+        left:0px;
+    }
+    .content_control_panel_slider1{
+        position: relative;
+        bottom:60px;
+    }
+    .pause_click{
+        position: relative;
+        top:20px;
+        left:10px;
+    }
+    .content_slider1{
+        height:69px;
+    }
+    .control_panel_slider2{
+        position: relative;
+        bottom:9px;
+        right:80px;
+    }
+    .content_control_panel_slider2{
+        position:relative;
+        bottom:30px;
+    }
+    .switcher_news{
+        position: relative;
+        bottom:2px;
+        right:5px;
+        height:32px;
+    }
+    .content_switcher_news{
+        position:relative;
+        bottom:34px;
+        left:1px;
+    }
+    .font_content2_slider{
+        position:relative;
+        left:65px;
+    }
+    .list{
+        position:relative;
+        top:0px;
+        right:6px;
+        background:#fdcc05;
+        padding:9px 10px;
+    }
+    .grid{
+        position:relative;
+        right:6px;
+        top:4px;
+    }
+    .switcher{
+        height:32px;
+        position: relative;
+        bottom:0px;
+        left:72px;
+    }
+    .c1{
+        position:relative;
+        left:50px;
+        top:2px;
+    }
+    .c1>span{
+        position:relative;
+        top:2px;
+        left:5px;
+    }
+    .c2{
+        position:relative;
+        left:20px;
+        top:2px;
+    }
+    .c3{
+        position:relative;
+        left:15px;
+        top:5px;
+    }
+    .down_part_slider{
+        height:32px;
+    }
+    .news_column1{
+        background: white;
+        height: 255px;
+        padding:2px;
+    }
+    .news_column2{
+        background: white;
+        height: 255px;
+        padding:2px;
+    }
+    .news_column3{
+        background: white;
+        height: 255px;
+        padding:2px;
+    }
+    .news_column4{
+        background: white;
+        height: 255px;
+        padding:2px;
+    }
+    .news2{
+        position:relative;
+        top:20px;
+    }
+    .district_content_pic_news1{
+        background:#fbfbfb;
+    }
+    .text_news1{
+        text-align: justify;
+        font-size: 13px;
+        position: relative;
+        top:5px;
+    }
+    .Pic_news1{
+        position: relative;
+        left:60px;
+        top:4px;
+        width: 350px;
+    }
+    .textmain_news1{
+        position: relative;
+        left:60px;
+        font-size: 14px;
+    }
+    .textmain_news2{
+        position: relative;
+        left:60px;
+        font-size: 12px;
+    }
+    .stars1{
+        float: right;
+        position: relative;
+        right:55px;
+        top:5px;
+    }
+    .watchers1{
+        position: relative;
+        top:17px;
+        left:90px;
+        font-size: 12px;
+    }
+    .text_news2{
+        text-align: justify;
+        font-size: 13px;
+        position: relative;
+        top:10px;
+    }
+    .control_magazines{
+        position: relative;
+
+        background: white;
+    }
+    .icon_logo_maazine{
+        float: right;
+        position: relative;
+        left:10px;
+        top:6px;
+    }
+    .part1_magazines{
+        position: relative;
+        top:20px;
+    }
+    .logo_text_magazine{
+        position: relative;
+        top:4px;
+        right:10px;
+    }
+    .click1_magazine{
+        float: right;
+        position: relative;
+        left:75px;
+        top:5px;
+    }
+    .click2_magazine{
+        float: right;
+        position: relative;
+        right:40px;
+        top:5px;
+    }
+    .separator_magazine1{
+        float: right;
+        position: relative;
+        left:8px;
+        top:5px;
+    }
+    .columns_magazines_part{
+        position: relative;
+        top:30px;
+    }
+    .column1_magazine,.column2_magazine,.column3_magazine,.column4_magazine{
+        height:190px;
+        background: white;
+    }
+    .container_content_magazine{
+        background:#fbfbfb;
+        position: relative;
+    }
+    .Pic_magazine1{
+        position: relative;
+        left:80px;
+        margin-top: 10px;
+    }
+    .name_magazine{
+        position: relative;
+        left:10px;
+    }
+    .button{
+        padding:2px;
+        border: 1px double black;
+        border-color: #eaeaea;
+        margin-top:18px;
+    }
+    .button2{
+        padding:2px;
+        border: 1px double black;
+        border-color: #eaeaea;
+        margin-top:18px;
+    }
+    .part1_magaz{
+        position: relative;
+        top:10px;
+    }
+    .part2_magaz{
+        position: relative;
+        top:7px;
+    }
+    .name4_magazine{
+        position: relative;
+        left:50px;
+    }
+    .name2_magazine{
+        position: relative;
+        left:15px;
+    }
+    .button_footer{
+        background: url("img/footer/Button.png");
+        padding:1px;
+    }
+    .text_button_footer{
+        color: #848484;
+        font-size: 8px;
+        position: relative;
+        left:10px;
+    }
+    .text_footer{
+        font-style:italic;
+        color: #848484;
+        font-size: 10px;
+        position: relative;
+        left:8px;
+    }
+    .content_email{
+        background: url("img/footer/Email Field.png");
+        padding:7px;
+        position: relative;
+        top:20px;
+    }
+    .social_icon{
+        position: relative;
+        top:25px;
+    }
+    .text_footer2{
+        position: relative;
+        left:10px;
+        font-size: 7px;
+        color: #848484;
+    }
+    .logo_left_bar1{
+        background: #FFFFFF;
+        padding: 5px;
+        margin-top: 40px;
+    }
+    .content_left_bar1{
+        background: #fbfbfb;
+        position: relative;
+        top:10px;
+    }
+    .content_left_bar2{
+        margin-top: 20px;
+        background: #fbfbfb;
+    }
+    .pic_left_bar2{
+        position: relative;
+        top:2px;
+    }
+    .text_leftbar4{
+        position: relative;
+        left:10px;
+        bottom:5px;
+        font-size: 9px;
+    }
+    .text_leftbar5{
+        position: relative;
+        left:10px;
+        bottom:10px;
+        font-size: 10px;
+    }
+    .text_leftbar6{
+        font-size: 10px;
+        position: relative;
+        bottom: 2px;
+        left:15px;
+    }
+    .pt3{
+        height:35px;
+    }
+    .pt4{
+        height:35px;
+    }
+    .part3_left_bar{
+        background: url("img/Left bar/Pic Set13.png") no-repeat;
+        padding:23px;
+        margin-top:14px;
+
+    }
+    .part4_left_bar{
+        background: url("img/Left bar/Pic Set14.png") no-repeat;
+        padding:23px;
+        margin-top:45px;
+    }
+    .part5_left_bar{
+        background: #ffffff;
+        margin-top:0px;
+    }
+    .pic_left_bar {
+        background: url("img/Left bar/Layer 15.png") 50% no-repeat;
+        padding:18px;
+        position: relative;
+    }
+    .button_left_bar1{
+        background: #ffffff;
+    }
+    .button_left_bar2{
+        background: #ffffff;
+    }
+    .pic_left_bar1{
+        position: relative;
+        left:3px;
+        top:2px;
+    }
+    .pt1{
+        height:35px;
+    }
+    .pt2{
+        height:35px;
+    }
+    .text_leftbar1{
+        position: relative;
+        bottom:5px;
+        left:10px;
+        font-size: 10px;
+    }
+    .text_leftbar2{
+        position: relative;
+        bottom:15px;
+        left:10px;
+        font-size: 10px;
+    }
+    .stars_left_bar1{
+        position: relative;
+        right: 0px;
+    }
+    .text_leftbar3{
+        position: relative;
+        left: 11px;
+        bottom:2px;
+        font-size: 10px;
+    }
+    .button_left_bar1{
+        position: relative;
+        top:11px;
+    }
+    .button_left_bar2{
+        position: relative;
+        top:11px;
+    }
+    .logo_left_bar2{
+        background: #ffffff;
+        padding: 5px;
+        height:30px;
+        margin-top: 40px;
+    }
+    .text_leftbar9{
+        position: relative;
+        top:30px;
+        right:20px;
+        font-size: 10px;
+        color:#FFFFFF;
+    }
+    .text_leftbar10{
+        font-size: 9px;
+        position: relative;
+        top:20px;
+        right:20px;
+        color:#FFFFFF;
+    }
+    .icon_left_bar1{
+        position: relative;
+        top:35px;
+        right:20px;
+    }
+    .text_leftbar11{
+        position: relative;
+        top:30px;
+        right:20px;
+        font-size: 10px;
+        color:#FFFFFF;
+    }
+    .text_leftbar12{
+        font-size: 9px;
+        position: relative;
+        top:20px;
+        right:20px;
+        color:#FFFFFF;
+    }
+    .icon_left_bar2{
+        position: relative;
+        top:35px;
+        right:20px;
+    }
+    .prew_left_bar{
+        position: relative;
+        right:35px;
+    }
+    .text_leftbar13{
+        position: relative;
+        left:5px;
+        top:2px;
+        font-size: 13px;
+    }
+    .separator_left_bar2{
+        width:180px;
+        position: relative;
+        left:5px;
+    }
+    .icon_left_bar{
+        position: relative;
+        top:12px;
+        right:10px;
+    }
+    .text_leftbar14{
+        position: relative;
+        top:13px;
+        right:10px;
+        color: white;
+        font-size: 10px;
+    }
+    .text_leftbar15{
+        text-align: justify;
+        font-size: 11px;
+    }
+    .name_magazine2{
+        position: relative;
+        left:5px;
+        font-size: 13px;
+    }
+    .name_magazine3{
+        position: relative;
+        left:18px;
+    }
+    .name_magazine4{
+        position: relative;
+        left:45px;
+    }
+    .pic_slider{
+        position: relative;
+        right:60px;
+    }
+    .icon{
+        position: relative;
+        left:70px;
+        top:2px;
+    }
+    .text_button_magazine{
+        font-size: 10px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .separator_left_bar{
+        position: relative;
+        bottom:23px;
+        left:158px;
+    }
+    .next_left_bar{
+        position: relative;
+        left:131px;
+        bottom:22px;
+    }
+    .text_leftbar17{
+        font-size: 10px;
+    }
+    .text_leftbar16{
+        font-size: 12px;
+    }
+    footer{
+        position: relative;
+        top:0px;
+        height: 70px;
+    }
+    .footer1{
+        background: #1f1f1f;
+        height: 70px;
+    }
+    .content_search_box{
+        position: relative;
+        bottom: 35px;
+    }
+    .control_panel{
+        background: bisque;
+        height:170px;
+    }
+    .search_box{
+        position: relative;
+        height:50px;
+    }
+    .content_BG_search{
+        position: relative;
+        bottom: 50px;
+        height:50px;
+    }
+    .Login_box{
+        height:50px;
+    }
+    .logo{
+        height:50px;
+    }
+    .Sing_Up_Icon{
+        float: right;
+        position: relative;
+        top:5px;
+    }
+    .Separator_BG_search{
+        position: relative;
+        top:12px;
+    }
+    .text_1{
+        height:25px;
+    }
+    .text_1>p{
+        position: relative;
+        left:15px;
+    }
+    .text_2 {
+        height:25px;
+    }
+    .text_2>p{
+        position: relative;
+        left:5px;
+    }
+    .Search_BOX{
+        position: relative;
+        left:305px;
+    }
+    .separator_search_box2{
+        position: relative;
+        float: right;
+        left:20px;
+    }
+    .Arrow_search_box{
+        left:70px;
+        position: relative;
+    }
+    .text_box2{
+        position: relative;
+        left:170px;
+    }
+    .separator_search_box1{
+        position: relative;
+        left:210px;
+    }
+    .text_box1{
+        position: relative;
+        left:285px;
+        font-style: italic;
+    }
+    .search{
+        position: relative;
+        left:320px;
+    }
+    .menu_line{
+        width:1135px;
+    }
+    .menu{
+        position: relative;
+        top:42px;
+    }
+    .menu_icon{
+        position: relative;
+        bottom:20px;
+    }
+    .menu_icon1{
+        float: right;
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        bottom:2px;
+        position: relative;
+    }
+    .menu_icon2{
+        float: right;
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:25px;
+    }
+    .menu_icon3{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:100px;
+    }
+    .menu_icon4{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:60px;
+    }
+    .menu_icon5{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:30px;
+    }
+    .menu_icon6{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        float: right;
+        right:20px;
+        bottom:2px;
+    }
+    .menu_icon7{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        float: right;
+        right:65px;
+        bottom:4px;
+    }
+    .menu_icon8{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        bottom:4px;
+    }
+    .menu_name{
+        position: relative;
+        bottom:10px;
+    }
+    .menu_name1{
+        float: right;
+    }
+    .menu_name2{
+        float: right;
+        position: relative;
+        right:47px;
+    }
+    .menu_name3{
+    }
+    .menu_name4{
+        float: right;
+        position: relative;
+        right:50px;
+    }
+    .menu_name5{
+        float: right;
+        position: relative;
+    }
+    .menu_name6{
+        float: right;
+        position: relative;
+        right:7px;
+    }
+    .menu_name7{
+        position: relative;
+        left:73px;
+    }
+    .menu_name8{
+        position: relative;
+        left:4px;
+    }
+    .main{
+    }
+    .central_content{
+        height:925px;
+    }
+    .Magazines_place{
+        height:276px;
+        margin-top: 15px;
+    }
+    .submenu{
+        height:372px;
+    }
+    .submenu>.row{
+        height:372px;
+    }
+    .submenu1{
+        padding:3px;
+        background: #555555;
+        font-size: 12px;
+    }
+    .icon_submenu1{
+        position: relative;
+        left:17px;
+    }
+    .name_submenu1{
+        position: relative;
+        top:10px;
+        color:#dadada;
+        font-size: 11px;
+    }
+    .submenu2{
+        position: relative;
+        top:25px;
+        padding:1px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu2{
+        position: relative;
+        left:17px;
+    }
+    .name_submenu2{
+        position: relative;
+        top:10px;
+        left:15px;
+        color:#777777;
+    }
+    .submenu3{
+        position: relative;
+        top:50px;
+        padding:2px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu3{
+        position: relative;
+        left:15px;
+    }
+    .name_submenu3{
+        position: relative;
+        top:10px;
+        left:3px;
+        color:#777777;
+    }
+    .submenu4{
+        position: relative;
+        top:75px;
+        padding:1px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu4{
+        position: relative;
+        left:15px;
+    }
+    .name_submenu4{
+        position: relative;
+        top:10px;
+        left:10px;
+        color:#777777;
+    }
+    .submenu5{
+        position: relative;
+        top:100px;
+        padding:1px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu5{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu5{
+        position: relative;
+        top:10px;
+        left:7px;
+        color:#777777;
+    }
+    .submenu6{
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu6{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu6{
+        position: relative;
+        top:10px;
+        left:8px;
+        color:#777777;
+    }
+    .submenu7{
+        position: relative;
+        top:25px;
+        padding:1px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu7{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu7{
+        position: relative;
+        top:10px;
+        left:10px;
+        color:#777777;
+    }
+    .submenu8{
+        position: relative;
+        top:50px;
+        padding:1px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu8{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu8{
+        position: relative;
+        top:10px;
+        left:12px;
+        color:#777777;
+    }
+    .submenu9{
+        position: relative;
+        top:75px;
+        padding:1px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu9{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu9{
+        position: relative;
+        top:10px;
+        left:15px;
+        color:#777777;
+    }
+    .submenu10{
+        position: relative;
+        top:101px;
+        padding:3px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu10{
+        position: relative;
+        left:15px;
+    }
+    .name_submenu10{
+        position: relative;
+        top:10px;
+        left:15px;
+        color:#777777;
+    }
+    .filter{
+        height:40px;
+    }
+    .filter_text1{
+        text-align: center;
+        padding:4px 10px;
+        font-size: 12px;
+        color:#ffffff;
+        background:#555555;
+    }
+    .filter_text2{
+        text-align: center;
+        padding:4px 10px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text3{
+        text-align: center;
+        padding:4px 10px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text4{
+        text-align: center;
+        padding:4px 10px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text5{
+        text-align: center;
+        padding:4px 2px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text6{
+        text-align: center;
+        padding:4px 10px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .choice1_filter{
+        position: relative;
+        bottom:5px;
+        left:18px;
+    }
+    .slider{
+        height:332px;
+    }
+    .front_controler_slider{
+        float:right;
+    }
+    .text1_controler_slider{
+        float:right;
+        position: relative;
+        right:55px;
+        background:#fdcc05;
+        padding:3px 6px;
+        bottom:1px;
+        color:white;
+    }
+    .text2_controler_slider{
+        float:right;
+        position: relative;
+        right:10px;
+        top:3px;
+        color:white;
+    }
+    .text3_controler_slider{
+        float:right;
+        position: relative;
+        left:25px;
+        top:3px;
+        color:white;
+    }
+    .control_slider,.control_slider>.row,.control_slider1,.control_slider1>.row{
+        height:30px;
+    }
+    .control_slider1{
+        position: relative;
+        bottom:280px;
+        right:13px;
+    }
+    .Content_controler_slider{
+        position: relative;
+        bottom:30px;
+        font-size: 18px;
+        float: right;
+    }
+    .separator_switcher1{
+        float: right;
+        position: relative;
+        top:2px;
+    }
+    .separator_switcher2{
+        float: right;
+        position: relative;
+        right:20px;
+        top:2px;
+    }
+    .pic1_slider{
+        margin-left: 75px;
+    }
+    .control_panel_slider1{
+        position: absolute;
+        top:226px;
+        left:30px;
+    }
+    .content_control_panel_slider1{
+        position: relative;
+        bottom:60px;
+    }
+    .pause_click{
+        position: relative;
+        top:20px;
+        left:10px;
+    }
+    .content_slider1{
+        height:69px;
+    }
+    .control_panel_slider2{
+        position: relative;
+        bottom:9px;
+        right:50px;
+    }
+    .content_control_panel_slider2{
+        position:relative;
+        bottom:30px;
+    }
+    .switcher_news{
+        position: relative;
+        bottom:2px;
+        right:5px;
+        height:32px;
+    }
+    .content_switcher_news{
+        position:relative;
+        bottom:34px;
+        left:1px;
+    }
+    .font_content2_slider{
+        position:relative;
+        left:65px;
+    }
+    .list{
+        position:relative;
+        top:0px;
+        right:6px;
+        background:#fdcc05;
+        padding:9px 10px;
+    }
+    .grid{
+        position:relative;
+        right:6px;
+        top:4px;
+    }
+    .switcher{
+        height:32px;
+        position: relative;
+        bottom:0px;
+        left:22px;
+    }
+    .c1{
+        position:relative;
+        left:50px;
+        top:2px;
+    }
+    .c1>span{
+        position:relative;
+        top:2px;
+        left:5px;
+    }
+    .c2{
+        position:relative;
+        right:0px;
+        top:2px;
+    }
+    .c3{
+        position:relative;
+        left:15px;
+        top:3px;
+    }
+    .down_part_slider{
+        height:32px;
+    }
+    .news_column1{
+        background: white;
+        height: 255px;
+        padding:2px;
+    }
+    .news_column2{
+        background: white;
+        height: 255px;
+        padding:2px;
+    }
+    .news_column3{
+        background: white;
+        height: 255px;
+        padding:2px;
+    }
+    .news_column4{
+        background: white;
+        height: 255px;
+        padding:2px;
+    }
+    .news2{
+        position:relative;
+        top:20px;
+    }
+    .district_content_pic_news1{
+        background:#fbfbfb;
+    }
+    .text_news1{
+        text-align: justify;
+        font-size: 13px;
+        position: relative;
+        top:5px;
+    }
+    .Pic_news1{
+        position: relative;
+        left:8px;
+        top:4px;
+    }
+    .textmain_news1{
+        position: relative;
+        left:10px;
+        font-size: 14px;
+    }
+    .textmain_news2{
+        position: relative;
+        left:10px;
+        font-size: 12px;
+    }
+    .stars1{
+        float: right;
+        position: relative;
+        right:15px;
+        top:5px;
+    }
+    .watchers1{
+        position: relative;
+        top:17px;
+        left:70px;
+        font-size: 12px;
+    }
+    .text_news2{
+        text-align: justify;
+        font-size: 13px;
+        position: relative;
+        top:10px;
+    }
+    .control_magazines{
+        position: relative;
+
+        background: white;
+    }
+    .icon_logo_maazine{
+        float: right;
+        position: relative;
+        right:10px;
+        top:6px;
+    }
+    .part1_magazines{
+        position: relative;
+        top:20px;
+    }
+    .logo_text_magazine{
+        position: relative;
+        top:4px;
+        right:30px;
+    }
+    .click1_magazine{
+        float: right;
+        position: relative;
+        left:110px;
+        top:5px;
+    }
+    .click2_magazine{
+        float: right;
+        position: relative;
+        right:50px;
+        top:5px;
+    }
+    .separator_magazine1{
+        float: right;
+        position: relative;
+        left:20px;
+        top:5px;
+    }
+    .columns_magazines_part{
+        position: relative;
+        top:30px;
+    }
+    .column1_magazine,.column2_magazine,.column3_magazine,.column4_magazine{
+        height:190px;
+        background: white;
+    }
+    .container_content_magazine{
+        background:#fbfbfb;
+        position: relative;
+    }
+    .Pic_magazine1{
+        position: relative;
+        left:80px;
+        margin-top: 10px;
+    }
+    .name_magazine{
+        position: relative;
+        left:10px;
+    }
+    .button{
+        padding:2px;
+        border: 1px double black;
+        border-color: #eaeaea;
+        margin-top:18px;
+    }
+    .button2{
+        padding:2px;
+        border: 1px double black;
+        border-color: #eaeaea;
+        margin-top:18px;
+    }
+    .part1_magaz{
+        position: relative;
+        top:10px;
+    }
+    .part2_magaz{
+        position: relative;
+        top:7px;
+    }
+    .name4_magazine{
+        position: relative;
+        left:50px;
+    }
+    .name2_magazine{
+        position: relative;
+        left:15px;
+    }
+    .button_footer{
+        background: url("img/footer/Button.png");
+        padding:1px;
+    }
+    .text_button_footer{
+        color: #848484;
+        font-size: 8px;
+        position: relative;
+        left:10px;
+    }
+    .text_footer{
+        font-style:italic;
+        color: #848484;
+        font-size: 10px;
+        position: relative;
+        left:8px;
+    }
+    .content_email{
+        background: url("img/footer/Email Field.png");
+        padding:7px;
+        position: relative;
+        top:20px;
+    }
+    .social_icon{
+        position: relative;
+        top:22px;
+        right:15px;
+    }
+    ul{
+        position: relative;
+        top:10px;
+    }
+    li{
+        color:#bbbbbb;
+        display:inline-block;
+        font-size: 12px;
+    }
+    .text_footer2{
+        position: relative;
+        left:10px;
+        font-size: 10px;
+        color: #848484;
+    }
+    .logo_left_bar1{
+        background: #FFFFFF;
+        padding: 5px;
+    }
+    .content_left_bar1{
+        background: #fbfbfb;
+        position: relative;
+        top:10px;
+    }
+    .content_left_bar2{
+        margin-top: 20px;
+        background: #fbfbfb;
+    }
+    .pic_left_bar2{
+        position: relative;
+        top:2px;
+    }
+    .text_leftbar4{
+        position: relative;
+        left:10px;
+        bottom:5px;
+        font-size: 9px;
+    }
+    .text_leftbar5{
+        position: relative;
+        left:10px;
+        bottom:10px;
+        font-size: 10px;
+    }
+    .text_leftbar6{
+        font-size: 10px;
+        position: relative;
+        bottom: 2px;
+        left:15px;
+    }
+    .pt3{
+        height:35px;
+    }
+    .pt4{
+        height:35px;
+    }
+    .part3_left_bar{
+        background: url("img/Left bar/Pic Set13.png") no-repeat;
+        padding:23px;
+        margin-top:10px;
+
+    }
+    .part4_left_bar{
+        background: url("img/Left bar/Pic Set14.png") no-repeat;
+        padding:23px;
+        margin-top:10px;
+    }
+    .part5_left_bar{
+        background: #ffffff;
+        margin-top:0px;
+    }
+    .pic_left_bar {
+        background: url("img/Left bar/Layer 15.png") 50% no-repeat;
+        padding:18px;
+        position: relative;
+    }
+    .button_left_bar1{
+        background: #ffffff;
+    }
+    .button_left_bar2{
+        background: #ffffff;
+    }
+    .pic_left_bar1{
+        position: relative;
+        left:3px;
+        top:2px;
+    }
+    .pt1{
+        height:35px;
+    }
+    .pt2{
+        height:35px;
+    }
+    .text_leftbar1{
+        position: relative;
+        bottom:5px;
+        left:10px;
+        font-size: 10px;
+    }
+    .text_leftbar2{
+        position: relative;
+        bottom:15px;
+        left:10px;
+        font-size: 10px;
+    }
+    .stars_left_bar1{
+        position: relative;
+        right: 0px;
+    }
+    .text_leftbar3{
+        position: relative;
+        left: 11px;
+        bottom:2px;
+        font-size: 10px;
+    }
+    .button_left_bar1{
+        position: relative;
+        top:11px;
+    }
+    .button_left_bar2{
+        position: relative;
+        top:11px;
+    }
+    .logo_left_bar2{
+        background: #ffffff;
+        padding: 5px;
+        height:30px;
+    }
+    .text_leftbar9{
+        position: relative;
+        top:30px;
+        right:20px;
+        font-size: 10px;
+        color:#FFFFFF;
+    }
+    .text_leftbar10{
+        font-size: 9px;
+        position: relative;
+        top:20px;
+        right:20px;
+        color:#FFFFFF;
+    }
+    .icon_left_bar1{
+        position: relative;
+        top:35px;
+        right:20px;
+    }
+    .text_leftbar11{
+        position: relative;
+        top:30px;
+        right:20px;
+        font-size: 10px;
+        color:#FFFFFF;
+    }
+    .text_leftbar12{
+        font-size: 9px;
+        position: relative;
+        top:20px;
+        right:20px;
+        color:#FFFFFF;
+    }
+    .icon_left_bar2{
+        position: relative;
+        top:35px;
+        right:20px;
+    }
+    .prew_left_bar{
+        position: relative;
+        right:35px;
+    }
+    .text_leftbar13{
+        position: relative;
+        left:5px;
+        top:2px;
+        font-size: 13px;
+    }
+    .separator_left_bar2{
+        width:180px;
+        position: relative;
+        left:5px;
+    }
+    .icon_left_bar{
+        position: relative;
+        top:12px;
+        right:10px;
+    }
+    .text_leftbar14{
+        position: relative;
+        top:13px;
+        right:10px;
+        color: white;
+        font-size: 10px;
+    }
+    .text_leftbar15{
+        text-align: justify;
+        font-size: 11px;
+    }
+    .name_magazine2{
+        position: relative;
+        left:5px;
+        font-size: 13px;
+    }
+    .name_magazine3{
+        position: relative;
+        left:18px;
+    }
+    .name_magazine4{
+        position: relative;
+        left:45px;
+    }
+    .pic_slider{
+        position: relative;
+        right:60px;
+    }
+    .icon{
+        position: relative;
+        left:70px;
+        top:2px;
+    }
+    .text_button_magazine{
+        font-size: 10px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .BG_search{
+        float:right;
+    }
+    footer{
+        position: relative;
+        top:35px;
+        height: 70px;
+    }
+    .footer1{
+        background: #1f1f1f;
+        height: 70px;
+    }
+    header{
+        position: relative;
+        top:39px;
+        height:170px;
+
+    }
+    header>.container{
+        position: relative;
+        height:170px;
+    }
+    header>.container>.row{
+        position: relative;
+        height:170px;
+    }
+    .content_search_box{
+        position: relative;
+        bottom:35px;
+    }
+    .control_panel{
+        height:170px;
+    }
+    .search_box{
+        height:50px;
+    }
+    .content_BG_search{
+        position: relative;
+        height:50px;
+        bottom:50px;
+        left:5px;
+    }
+    .Login_box{
+        height:50px;
+    }
+    .logo{
+        height:50px;
+        float: left;
+    }
+    .Sing_Up_Icon{
+        margin-top: 5px;
+
+    }
+    .Separator_BG_search{
+        margin-top: 7px;
+
+    }
+    .Login_Icon{
+        margin-top: 5px;
+    }
+    .text_1{
+        height:25px;
+    }
+    .text_1>p{
+        position: relative;
+        right:90px;
+    }
+    .text_2 {
+        height:25px;
+    }
+    .text_2>p{
+        position: relative;
+        bottom: 25px;
+        left:62px;
+    }
+    .Search_BOX{
+        position: relative;
+        float:right;
+        right:30px;
+    }
+    .separator_search_box2{
+        position: relative;
+        left:50px;
+    }
+    .Arrow_search_box{
+        left:70px;
+        position: relative;
+    }
+    .text_box2{
+        position: relative;
+        left:140px;
+
+    }
+    .separator_search_box1{
+        position: relative;
+        left:180px;
+    }
+    .text_box1{
+        position: relative;
+        left:185px;
+        font-style: italic;
+    }
+    .click_searc{
+        position: relative;
+        left:10px;
+    }
+    .search{
+        position: relative;
+        top:50px;
+        left:150px;
+    }
+    .menu_line{
+        width:935px;
+    }
+    .menu{
+        position: relative;
+        top:42px;
+    }
+    .menu_icon{
+        position: relative;
+        bottom:20px;
+    }
+    .menu_icon1{
+        float: right;
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        bottom:2px;
+        position: relative;
+        left:20px;
+    }
+    .menu_icon2{
+        float: right;
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        right:30px;
+
+    }
+    .menu_icon3{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:30px;
+    }
+    .menu_icon4{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:60px;
+
+    }
+    .menu_icon5{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:20px;
+
+    }
+    .menu_icon6{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        float: right;
+        right:40px;
+        bottom:2px;
+    }
+    .menu_icon7{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        float: right;
+        right:75px;
+        bottom:4px;
+    }
+    .menu_icon8{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        bottom:4px;
+        right:30px;
+    }
+    .menu_name{
+        position: relative;
+        bottom:10px;
+    }
+    .menu_name1{
+        float: right;
+        position: relative;
+        left:20px;
+    }
+    .menu_name2{
+        float: right;
+        position: relative;
+        right:10px;
+    }
+    .menu_name3{
+        position: relative;
+        left:27px;
+    }
+    .menu_name4{
+        float: right;
+        position: relative;
+        right:17px;
+    }
+    .menu_name5{
+        float: right;
+        position: relative;
+        left:5px;
+    }
+    .menu_name6{
+        float: right;
+        position: relative;
+        right:30px;
+    }
+    .menu_name7{
+        position: relative;
+        left:30px;
+    }
+    .menu_name8{
+        position: relative;
+        right:27px;
+    }
+    .main{
+        position: relative;
+        top:35px;
+    }
+    .central_content{
+        height:910px;
+    }
+    .left_bar{
+        height:910px;
+    }
+    .Magazines_place{
+        margin-top:0px;
+        height:276px;
+    }
+    .submenu{
+        height:372px;
+    }
+    .submenu>.row{
+        height:372px;
+    }
+    .submenu1{
+        padding:5px;
+        background: #555555;
+        font-size: 10px;
+    }
+    .icon_submenu1{
+        position: relative;
+        left:15px;
+    }
+    .name_submenu1{
+        position: relative;
+        top:10px;
+        color:#dadada;
+    }
+    .submenu2{
+        position: relative;
+        top:20px;
+        padding:5px;
+        background: #ffffff;
+        font-size: 10px;
+    }
+    .icon_submenu2{
+        position: relative;
+        left:13px;
+    }
+    .name_submenu2{
+        position: relative;
+        top:10px;
+        left:13px;
+        color:#777777;
+    }
+    .submenu3{
+        position: relative;
+        top:40px;
+        padding:5px;
+        background: #ffffff;
+        font-size: 10px;
+    }
+    .icon_submenu3{
+        position: relative;
+        left:11px;
+    }
+    .name_submenu3{
+        position: relative;
+        top:10px;
+        left:3px;
+        color:#777777;
+    }
+    .submenu4{
+        position: relative;
+        top:60px;
+        padding:5px;
+        background: #ffffff;
+        font-size: 10px;
+    }
+    .icon_submenu4{
+        position: relative;
+        left:12px;
+    }
+    .name_submenu4{
+        position: relative;
+        top:10px;
+        left:10px;
+        color:#777777;
+    }
+    .submenu5{
+        position: relative;
+        top:79px;
+        padding:5px;
+        background: #ffffff;
+        font-size: 10px;
+    }
+    .icon_submenu5{
+        position: relative;
+        left:17px;
+    }
+    .name_submenu5{
+        position: relative;
+        top:10px;
+        left:7px;
+        color:#777777;
+    }
+    .submenu6{
+        padding:3px;
+        background: #ffffff;
+        font-size: 10px;
+    }
+    .icon_submenu6{
+        position: relative;
+        left:17px;
+    }
+    .name_submenu6{
+        position: relative;
+        top:10px;
+        left:6px;
+        color:#777777;
+    }
+    .submenu7{
+        position: relative;
+        top:20px;
+        padding:5px;
+        background: #ffffff;
+        font-size: 10px;
+    }
+    .icon_submenu7{
+        position: relative;
+        left:15px;
+    }
+    .name_submenu7{
+        position: relative;
+        top:10px;
+        left:7px;
+        color:#777777;
+    }
+    .submenu8{
+        position: relative;
+        top:40px;
+        padding:4px;
+        background: #ffffff;
+        font-size: 10px;
+    }
+    .icon_submenu8{
+        position: relative;
+        left:15px;
+    }
+    .name_submenu8{
+        position: relative;
+        top:10px;
+        left:10px;
+        color:#777777;
+    }
+    .submenu9{
+        position: relative;
+        top:60px;
+        padding:5px;
+        background: #ffffff;
+        font-size: 10px;
+    }
+    .icon_submenu9{
+        position: relative;
+        left:15px;
+    }
+    .name_submenu9{
+        position: relative;
+        top:10px;
+        left:12px;
+        color:#777777;
+    }
+    .submenu10{
+        position: relative;
+        top:80px;
+        padding:7px;
+        background: #ffffff;
+        font-size: 10px;
+    }
+    .icon_submenu10{
+        position: relative;
+        left:12px;
+    }
+    .name_submenu10{
+        position: relative;
+        top:10px;
+        left:12px;
+        color:#777777;
+    }
+
+    .filter{
+        height:40px;
+    }
+    .filter_text1{
+        text-align: center;
+        padding:4px 10px;
+        font-size: 12px;
+        color:#ffffff;
+        background:#555555;
+    }
+    .filter_text2{
+        text-align: center;
+        padding:4px 10px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text3{
+        text-align: center;
+        padding:4px 10px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text4{
+        text-align: center;
+        padding:4px 10px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text5{
+        text-align: center;
+        padding:4px 3px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text6{
+        text-align: center;
+        padding:4px 10px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .choice1_filter{
+        position: relative;
+        bottom:5px;
+        left:17px;
+    }
+    .slider{
+        height:332px;
+    }
+    .front_controler_slider{
+        float:right;
+    }
+    .text1_controler_slider{
+        float:right;
+        position: relative;
+        right:55px;
+        background:#fdcc05;
+        padding:2px 6px;
+        top:0px;
+        color:white;
+    }
+    .text2_controler_slider{
+        float:right;
+        position: relative;
+        right:10px;
+        top:3px;
+        color:white;
+    }
+    .text3_controler_slider{
+        float:right;
+        position: relative;
+        left:25px;
+        top:3px;
+        color:white;
+    }
+    .control_slider,.control_slider>.row,.control_slider1,.control_slider1>.row{
+        height:30px;
+    }
+    .control_slider1{
+        position: relative;
+        bottom:281px;
+        right:11px;
+    }
+    .Content_controler_slider{
+        position: relative;
+        bottom:30px;
+        font-size: 18px;
+        float: right;
+    }
+    .separator_switcher1{
+        float: right;
+        position: relative;
+        top:2px;
+    }
+    .separator_switcher2{
+        float: right;
+        position: relative;
+        right:20px;
+        top:2px;
+    }
+    .pic1_slider{
+        float: left;
+    }
+    .control_panel_slider1{
+        position: absolute;
+        top:226px;
+    }
+    .content_control_panel_slider1{
+        position: relative;
+        bottom:60px;
+    }
+    .pause_click{
+        position: relative;
+        top:20px;
+        left:10px;
+    }
+    .content_slider1{
+        height:69px;
+    }
+    .control_panel_slider2{
+        position: relative;
+        bottom:9px;
+    }
+    .content_control_panel_slider2{
+        position:relative;
+        bottom:30px;
+    }
+    .switcher_news{
+        position: relative;
+        bottom:2px;
+        right:5px;
+        height:32px;
+    }
+    .content_switcher_news{
+        position:relative;
+        bottom:34px;
+        left:1px;
+    }
+    .list{
+        position:relative;
+        top:0px;
+        right:6px;
+        background:#fdcc05;
+        padding:9px 10px;
+    }
+    .mostrecent{
+        position: relative;
+        right:30px;
+        top:3px;
+    }
+    .grid{
+        position:relative;
+        right:6px;
+        top:4px;
+    }
+    .icon{
+        position: relative;
+        left:10px;
+        top:2px;
+    }
+    .separator{
+        position: relative;
+        right:40px;
+        top:1px;
+    }
+    .text{
+        position: relative;
+        top:4px;
+    }
+    .switcher{
+        height:32px;
+        position: relative;
+        right:30px;
+    }
+    .down_part_slider{
+        height:32px;
+    }
+    .news{
+        height:529px;
+    }
+    .news_column1{
+        background: white;
+        height: 240px;
+        padding:2px;
+    }
+    .news_column2{
+        background: white;
+        height: 240px;
+        padding:2px;
+    }
+    .news_column3{
+        background: white;
+        height: 235px;
+        padding:2px;
+    }
+    .news_column4{
+        background: white;
+        height: 235px;
+        padding:2px;
+    }
+    .news2{
+        position:relative;
+        top:20px;
+    }
+    .district_content_pic_news1{
+        background:#fbfbfb;
+    }
+    .text_news1{
+        text-align: justify;
+        font-size: 11px;
+        position: relative;
+        top:0px;
+    }
+    .Pic_news1{
+        position: relative;
+        left:8px;
+        top:4px;
+    }
+    .textmain_news1{
+        position: relative;
+        left:10px;
+        font-size: 13px;
+    }
+    .textmain_news2{
+        position: relative;
+        left:10px;
+        bottom:5px;
+        font-size: 12px;
+    }
+    .stars1{
+        float: right;
+        position: relative;
+        right:10px;
+        top:10px;
+    }
+    .watchers{
+     font-size: 12px;
+        position: relative;
+        left:3px;
+    }
+    .watchers1{
+        font-size: 12px;
+        position: relative;
+        top:15px;
+        left:70px;
+    }
+    .text_news2{
+        text-align: justify;
+        font-size: 11px;
+        position: relative;
+        top:0px;
+    }
+    .control_magazines{
+        position: relative;
+
+        background: white;
+    }
+    .icon_logo_maazine{
+        float: right;
+        position: relative;
+        right:30px;
+        top:6px;
+    }
+    .part1_magazines{
+        position: relative;
+        top:20px;
+    }
+    .logo_text_magazine{
+        position: relative;
+        top:4px;
+        right:45px;
+    }
+    .click1_magazine{
+        float: right;
+        position: relative;
+        left:125px;
+        top:5px;
+    }
+    .click2_magazine{
+        float: right;
+        position: relative;
+        right:5px;
+        top:5px;
+    }
+    .separator_magazine1{
+        float: right;
+        position: relative;
+        left:50px;
+        top:6px;
+    }
+    .columns_magazines_part{
+        position: relative;
+        top:30px;
+    }
+    .column1_magazine,.column2_magazine,.column3_magazine,.column4_magazine{
+        height:190px;
+        background: white;
+    }
+    .container_content_magazine{
+        background:#fbfbfb;
+        position: relative;
+    }
+    .Pic_magazine1{
+        position: relative;
+        left:70px;
+        margin-top: 10px;
+    }
+    .name_magazine{
+        position: relative;
+        left:20px;
+        font-size: 12px;
+    }
+    .name_magazine2{
+        font-size: 12px;
+        position: relative;
+        left:8px;
+    }
+    .name_magazine3{
+        position: relative;
+        left:13px;
+    }
+    .name_magazine4{
+        position: relative;
+        left:22px;
+    }
+    .button{
+        padding:2px;
+        border: 1px double black;
+        border-color: #eaeaea;
+    }
+    .button1{
+        position: relative;
+        top:20px
+    }
+    .button2{
+        padding:2px;
+        border: 1px double black;
+        border-color: #eaeaea;
+        position: relative;
+        bottom: 2px;
+    }
+    .stars_{
+        position: relative;
+        left:2px;
+    }
+    .text_button_magazine{
+    font-size: 10px;
+    }
+    .part1_magaz{
+        position: relative;
+        top:10px;
+    }
+    .part2_magaz{
+        position: relative;
+        top:7px;
+    }
+    .name4_magazine{
+        position: relative;
+        left:50px;
+    }
+    .name2_magazine{
+        position: relative;
+        left:15px;
+    }
+    .button_footer{
+        background: url("img/footer/Button.png");
+        padding:1px;
+    }
+    .text_button_footer{
+        color: #848484;
+        font-size: 12px;
+        position: relative;
+        left:10px;
+    }
+    .text_footer{
+        font-style:italic;
+        color: #848484;
+        font-size: 12px;
+        position: relative;
+        left:8px;
+    }
+    .content_email{
+        background: url("img/footer/Email Field.png");
+        padding:7px;
+        position: relative;
+        top:20px;
+    }
+    .social_icon{
+        position: relative;
+        top:25px;
+        right:15px;
+    }
+    ul{
+        position: relative;
+        top:13px;
+    }
+    li{
+        color:#bbbbbb;
+        display:inline-block;
+        font-size: 12px;
+    }
+    .text_footer2{
+        position: relative;
+        left:90px;
+        top:7px;
+        font-size: 11px;
+        color: #848484;
+    }
+    .logo_left_bar1{
+        background: #FFFFFF;
+        padding: 5px;
+    }
+    .content_left_bar1{
+        background: #fbfbfb;
+        position: relative;
+        top:10px;
+    }
+    .content_left_bar2{
+        margin-top: 20px;
+        background: #fbfbfb;
+    }
+    .pic_left_bar2{
+        position: relative;
+    }
+    .text_leftbar4{
+        position: relative;
+        bottom:5px;
+        font-size: 11px;
+    }
+    .text_leftbar5{
+        position: relative;
+        left:12px;
+        bottom:15px;
+        font-size: 10px;
+    }
+    .text_leftbar6{
+        font-size: 10px;
+        position: relative;
+        bottom: 22px;
+    }
+    .pt3{
+        height:35px;
+    }
+    .pt4{
+        height:35px;
+    }
+    .part3_left_bar{
+        background: url("img/Left bar/Pic Set13.png");
+        height:100px;
+        margin-top:10px;
+    }
+    .part4_left_bar{
+        background: url("img/Left bar/Pic Set14.png") no-repeat;
+        height:100px;
+        margin-top:10px;
+
+    }
+    .part5_left_bar{
+        background: #ffffff;
+        margin-top:0px;
+    }
+    .pic_left_bar {
+        background: url("img/Left bar/Layer 15.png") 50% no-repeat;
+        padding:18px;
+        position: relative;
+    }
+    .button_left_bar1{
+        background: #ffffff;
+    }
+    .button_left_bar2{
+        background: #ffffff;
+    }
+    .pic_left_bar1{
+    }
+    .pt1{
+        height:35px;
+    }
+    .pt2{
+        height:35px;
+    }
+    .text_leftbar1{
+        position: relative;
+        bottom:6px;
+        font-size: 11px;
+    }
+    .text_leftbar2{
+        position: relative;
+        bottom:15px;
+        left:10px;
+        font-size: 10px;
+    }
+    .stars_left_bar1{
+        position: relative;
+        right: 12px;
+    }
+    .star5{
+        position: relative;
+        bottom:20px;
+        left:67px;
+    }
+    .text_leftbar3{
+        position: relative;
+        left: 2px;
+        bottom:22px;
+        font-size: 10px;
+    }
+    .button_left_bar1{
+        position: relative;
+        top:11px;
+    }
+    .button_left_bar2{
+        position: relative;
+        top:11px;
+    }
+    .logo_left_bar2{
+        background: #ffffff;
+        padding: 5px;
+        margin-top:30px;
+        height:35px;
+    }
+    .text_leftbar9{
+        position: relative;
+        top:50px;
+        left:10px;
+        font-size: 13px;
+        color:#FFFFFF;
+    }
+    .text_leftbar10{
+        font-size: 10px;
+        position: relative;
+        top:40px;
+        left:10px;
+        color:#FFFFFF;
+    }
+    .icon_left_bar1{
+        position: relative;
+        top:55px;
+        right:20px;
+    }
+    .text_leftbar11{
+        position: relative;
+        top:50px;
+        left:10px;
+        font-size: 13px;
+        color:#FFFFFF;
+    }
+    .text_leftbar12{
+        font-size: 10px;
+        position: relative;
+        top:40px;
+        left:10px;
+        color:#FFFFFF;
+    }
+    .icon_left_bar2{
+        position: relative;
+        top:55px;
+        right:20px;
+    }
+    .text_leftbar16{
+        font-size: 13px;
+        position: relative;
+        top:1px;
+    }
+    .separator_left_bar{
+        position: relative;
+        right: 15px;
+    }
+    .prew_left_bar{
+        position: relative;
+        right:10px;
+    }
+    .next_left_bar{
+        position: relative;
+        bottom:21px;
+        right:10px;
+    }
+    .text_leftbar13{
+        position: relative;
+        left:10px;
+        top:2px;
+    }
+    .separator_left_bar2{
+        width:200px;
+        position: relative;
+        left:5px;
+    }
+    .icon_left_bar{
+        position: relative;
+        top:12px;
+        right:5px;
+    }
+    .text_leftbar14{
+        position: relative;
+        top:13px;
+        right:5px;
+        color: white;
+    }
+    .text_leftbar15{
+        text-align: justify;
+        font-size: 12px;
+    }
+    .text_leftbar17{
+        font-size: 12px;
+    }
+    .district_content_pic_column1_magazine{
+        background:white;
+        padding:2px;
+    }
+}
+@media(min-width:1200px){
+    footer{
+        position: relative;
+        top:35px;
+        height: 70px;
+    }
+    .footer1{
+        background: #1f1f1f;
+        height: 70px;
+    }
+    .equal, .equal> div[class*='col-']{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex:1 0 auto;
+    }
+    header{
+        position: relative;
+        top:39px;
+        height:170px;
+
+    }
+    header>.container{
+        position: relative;
+        height:170px;
+    }
+    header>.container>.row{
+        position: relative;
+        height:170px;
+    }
+    .content_search_box{
+        position: relative;
+        bottom: 35px;
+    }
+    .control_panel{
+        height:170px;
+    }
+    .search_box{
+        position: relative;
+        height:50px;
+    }
+    .content_BG_search{
+        position: relative;
+        bottom: 50px;
+        height:50px;
+    }
+    .Login_box{
+        height:50px;
+    }
+    .logo{
+        height:50px;
+    }
+    .Sing_Up_Icon{
+        float: right;
+        position: relative;
+        top:5px;
+    }
+    .Separator_BG_search{
+        position: relative;
+        top:12px;
+    }
+    .text_1{
+        height:25px;
+    }
+    .text_1>p{
+        position: relative;
+        left:15px;
+    }
+    .text_2 {
+        height:25px;
+    }
+    .text_2>p{
+        position: relative;
+        left:5px;
+    }
+    .Search_BOX{
+        position: relative;
+        left:305px;
+    }
+    .separator_search_box2{
+        position: relative;
+        float: right;
+        left:20px;
+    }
+    .Arrow_search_box{
+        left:70px;
+        position: relative;
+    }
+    .text_box2{
+        position: relative;
+        left:170px;
+    }
+    .separator_search_box1{
+        position: relative;
+        left:210px;
+    }
+    .text_box1{
+        position: relative;
+        left:285px;
+        font-style: italic;
+    }
+    .search{
+        position: relative;
+        left:320px;
+    }
+    .menu_line{
+        width:1135px;
+    }
+    .menu{
+        position: relative;
+        top:42px;
+    }
+    .menu_icon{
+        position: relative;
+        bottom:20px;
+    }
+    .menu_icon1{
+        float: right;
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        bottom:2px;
+        position: relative;
+    }
+    .menu_icon2{
+        float: right;
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:25px;
+    }
+    .menu_icon3{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:100px;
+    }
+    .menu_icon4{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:60px;
+    }
+    .menu_icon5{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        left:30px;
+    }
+    .menu_icon6{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        float: right;
+        right:20px;
+        bottom:2px;
+    }
+    .menu_icon7{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        float: right;
+        right:65px;
+        bottom:4px;
+    }
+    .menu_icon8{
+        padding: 1px 5px;
+        background:url("img/Background.png");
+        position: relative;
+        bottom:4px;
+    }
+    .menu_name{
+        position: relative;
+        bottom:10px;
+    }
+    .menu_name1{
+        float: right;
+    }
+    .menu_name2{
+        float: right;
+        position: relative;
+        right:47px;
+    }
+    .menu_name3{
+    }
+    .menu_name4{
+        float: right;
+        position: relative;
+        right:50px;
+    }
+    .menu_name5{
+        float: right;
+        position: relative;
+    }
+    .menu_name6{
+        float: right;
+        position: relative;
+        right:7px;
+    }
+    .menu_name7{
+        position: relative;
+        left:73px;
+    }
+    .menu_name8{
+        position: relative;
+        left:4px;
+    }
+    .main{
+       position: relative;
+        top:35px;
+    }
+    .central_content{
+        height:880px;
+    }
+    .left_bar{
+        height:880px;
+    }
+    .Magazines_place{
+        height:276px;
+    }
+    .submenu{
+        height:372px;
+    }
+    .submenu>.row{
+        height:372px;
+    }
+    .submenu1{
+        padding:9px;
+        background: #555555;
+        font-size: 12px;
+    }
+    .icon_submenu1{
+        position: relative;
+        left:17px;
+    }
+    .name_submenu1{
+        position: relative;
+        top:10px;
+        color:#dadada;
+    }
+    .submenu2{
+        position: relative;
+        top:5px;
+        padding:9px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu2{
+        position: relative;
+        left:17px;
+    }
+    .name_submenu2{
+        position: relative;
+        top:10px;
+        left:15px;
+        color:#777777;
+    }
+    .submenu3{
+        position: relative;
+        top:12px;
+        padding:9px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu3{
+        position: relative;
+        left:15px;
+    }
+    .name_submenu3{
+        position: relative;
+        top:10px;
+        left:3px;
+        color:#777777;
+    }
+    .submenu4{
+        position: relative;
+        top:19px;
+        padding:9px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu4{
+        position: relative;
+        left:15px;
+    }
+    .name_submenu4{
+        position: relative;
+        top:10px;
+        left:10px;
+        color:#777777;
+    }
+    .submenu5{
+        position: relative;
+        top:25px;
+        padding:9px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu5{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu5{
+        position: relative;
+        top:10px;
+        left:7px;
+        color:#777777;
+    }
+    .submenu6{
+        padding:7px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu6{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu6{
+        position: relative;
+        top:10px;
+        left:8px;
+        color:#777777;
+    }
+    .submenu7{
+        position: relative;
+        top:5px;
+        padding:9px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu7{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu7{
+        position: relative;
+        top:10px;
+        left:10px;
+        color:#777777;
+    }
+    .submenu8{
+        position: relative;
+        top:12px;
+        padding:9px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu8{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu8{
+        position: relative;
+        top:10px;
+        left:12px;
+        color:#777777;
+    }
+    .submenu9{
+        position: relative;
+        top:19px;
+        padding:8px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu9{
+        position: relative;
+        left:20px;
+    }
+    .name_submenu9{
+        position: relative;
+        top:10px;
+        left:15px;
+        color:#777777;
+    }
+    .submenu10{
+        position: relative;
+        top:25px;
+        padding:11px;
+        background: #ffffff;
+        font-size: 12px;
+    }
+    .icon_submenu10{
+        position: relative;
+        left:15px;
+    }
+    .name_submenu10{
+        position: relative;
+        top:10px;
+        left:15px;
+        color:#777777;
+    }
+    .s2{
+        padding-left: 0;
+        padding-right:30px;
+    }
+    .filter{
+        height:40px;
+    }
+    .filter_text1{
+        text-align: center;
+        padding:4px 20px;
+        font-size: 12px;
+        color:#ffffff;
+        background:#555555;
+    }
+    .filter_text2{
+        text-align: center;
+        padding:4px 20px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text3{
+        text-align: center;
+        padding:4px 20px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text4{
+        text-align: center;
+        padding:4px 20px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text5{
+        text-align: center;
+        padding:4px 5px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .filter_text6{
+        text-align: center;
+        padding:4px 20px;
+        font-size: 12px;
+        background:#ffffff;
+    }
+    .choice1_filter{
+        position: relative;
+        bottom:5px;
+        left:28px;
+    }
+    .slider{
+        height:332px;
+    }
+    .front_controler_slider{
+        float:right;
+    }
+    .text1_controler_slider{
+        float:right;
+        position: relative;
+        right:55px;
+        background:#fdcc05;
+        padding:2px 6px;
+        top:0px;
+        color:white;
+    }
+    .text2_controler_slider{
+        float:right;
+        position: relative;
+        right:10px;
+        top:3px;
+        color:white;
+    }
+    .text3_controler_slider{
+        float:right;
+        position: relative;
+        left:25px;
+        top:3px;
+        color:white;
+    }
+    .control_slider,.control_slider>.row,.control_slider1,.control_slider1>.row{
+        height:30px;
+    }
+    .control_slider1{
+        position: relative;
+        bottom:280px;
+        right:60px;
+    }
+    .Content_controler_slider{
+        position: relative;
+        bottom:30px;
+        font-size: 18px;
+        float: right;
+    }
+    .separator_switcher1{
+        float: right;
+        position: relative;
+        top:2px;
+    }
+    .separator_switcher2{
+        float: right;
+        position: relative;
+        right:20px;
+        top:2px;
+    }
+    .pic1_slider{
+        float: right;
+    }
+    .control_panel_slider1{
+        position: absolute;
+        top:226px;
+        left:80px;
+    }
+    .content_control_panel_slider1{
+        position: relative;
+        bottom:60px;
+    }
+    .pause_click{
+        position: relative;
+        top:20px;
+        left:10px;
+    }
+    .content_slider1{
+        height:69px;
+    }
+    .control_panel_slider2{
+        position: relative;
+        bottom:9px;
+    }
+    .content_control_panel_slider2{
+        position:relative;
+        bottom:30px;
+    }
+    .switcher_news{
+        position: relative;
+        bottom:2px;
+        right:5px;
+        height:32px;
+    }
+    .content_switcher_news{
+        position:relative;
+        bottom:34px;
+        left:1px;
+    }
+    .font_content2_slider{
+        position:relative;
+        left:65px;
+    }
+    .list{
+        position:relative;
+        top:0px;
+        right:6px;
+        background:#fdcc05;
+        padding:9px 10px;
+    }
+    .grid{
+        position:relative;
+        right:6px;
+        top:4px;
+    }
+    .switcher{
+        height:32px;
+        position: relative;
+        bottom:20px;
+        left:220px;
+    }
+    .c1{
+        position:relative;
+        left:50px;
+        top:2px;
+    }
+    .c1>span{
+        position:relative;
+        top:2px;
+        left:5px;
+    }
+    .c2{
+        position:relative;
+        right:10px;
+        top:2px;
+    }
+    .c3{
+        position:relative;
+        left:15px;
+        top:3px;
+    }
+    .down_part_slider{
+        height:32px;
+    }
+    .news{
+        height:517px;
+    }
+    .news_column1{
+        background: white;
+        height: 240px;
+        padding:2px;
+    }
+    .news_column2{
+        background: white;
+        height: 240px;
+        padding:2px;
+    }
+    .news_column3{
+        background: white;
+        height: 240px;
+        padding:2px;
+    }
+    .news_column4{
+        background: white;
+        height: 240px;
+        padding:2px;
+    }
+    .news2{
+        position:relative;
+        top:20px;
+    }
+    .district_content_pic_news1{
+        background:#fbfbfb;
+    }
+    .text_news1{
+        text-align: justify;
+        font-size: 12px;
+        position: relative;
+        top:5px;
+    }
+    .Pic_news1{
+        width:395px;
+        height:100px;
+        position: relative;
+        left:8px;
+        top:4px;
+    }
+    .textmain_news1{
+        position: relative;
+        left:10px;
+    }
+    .textmain_news2{
+        position: relative;
+        left:10px;
+    }
+    .stars1{
+        float: right;
+        position: relative;
+        right:10px;
+        top:5px;
+    }
+    .watchers1{
+        position: relative;
+        top:15px;
+        left:100px;
+    }
+    .text_news2{
+        text-align: justify;
+        font-size: 13px;
+        position: relative;
+        top:10px;
+    }
+    .control_magazines{
+        position: relative;
+
+        background: white;
+    }
+    .icon_logo_maazine{
+        float: right;
+        position: relative;
+        right:30px;
+        top:6px;
+    }
+    .part1_magazines{
+        position: relative;
+        top:20px;
+    }
+    .logo_text_magazine{
+        position: relative;
+        top:4px;
+        right:45px;
+    }
+    .click1_magazine{
+        float: right;
+        position: relative;
+        left:150px;
+        top:5px;
+    }
+    .click2_magazine{
+        float: right;
+        position: relative;
+        right:10px;
+        top:5px;
+    }
+    .separator_magazine1{
+        float: right;
+        position: relative;
+        left:60px;
+        top:5px;
+    }
+    .columns_magazines_part{
+        position: relative;
+        top:30px;
+    }
+    .column1_magazine,.column2_magazine,.column3_magazine,.column4_magazine{
+        height:190px;
+        background: white;
+    }
+    .container_content_magazine{
+        background:#fbfbfb;
+        position: relative;
+    }
+    .Pic_magazine1{
+        position: relative;
+        left:95px;
+        margin-top: 10px;
+    }
+    .name_magazine{
+        position: relative;
+        left:35px;
+    }
+    .button{
+        padding:2px;
+        border: 1px double black;
+        border-color: #eaeaea;
+        margin-top:18px;
+    }
+    .button2{
+        padding:2px;
+        border: 1px double black;
+        border-color: #eaeaea;
+        margin-top:18px;
+    }
+    .part1_magaz{
+        position: relative;
+        top:10px;
+    }
+    .part2_magaz{
+        position: relative;
+        top:7px;
+    }
+    .name4_magazine{
+        position: relative;
+        left:50px;
+    }
+    .name2_magazine{
+        position: relative;
+        left:15px;
+    }
+    .button_footer{
+        background: url("img/footer/Button.png");
+        padding:1px;
+    }
+    .text_button_footer{
+        color: #848484;
+        font-size: 8px;
+        position: relative;
+        left:10px;
+    }
+    .text_footer{
+        font-style:italic;
+        color: #848484;
+        font-size: 10px;
+        position: relative;
+        left:8px;
+    }
+    .content_email{
+        background: url("img/footer/Email Field.png");
+        padding:7px;
+        position: relative;
+        top:20px;
+    }
+    .social_icon{
+        position: relative;
+        top:22px;
+        right:15px;
+    }
+    ul{
+        position: relative;
+        top:10px;
+    }
+    li{
+        color:#bbbbbb;
+        display:inline-block;
+    }
+    .text_footer2{
+        position: relative;
+        top:10px;
+        left:110px;
+        font-size: 12px;
+        color: #848484;
+    }
+    .logo_left_bar1{
+        background: #FFFFFF;
+        padding: 5px;
+    }
+    .content_left_bar1{
+        background: #fbfbfb;
+        position: relative;
+        top:10px;
+    }
+    .pic_left_bar1{
+    }
+    .content_left_bar2{
+        margin-top: 20px;
+        background: #fbfbfb;
+    }
+    .pic_left_bar2{
+        position: relative;
+        left:25px;
+        top:2px;
+        padding:2px;
+    }
+    .text_leftbar4{
+        position: relative;
+        left:30px;
+        bottom:5px;
+    }
+    .text_leftbar5{
+        position: relative;
+        left:30px;
+        bottom:15px;
+        font-size: 10px;
+    }
+    .text_leftbar6{
+        font-size: 10px;
+        position: relative;
+        bottom: 2px;
+    }
+    .pt3{
+        height:35px;
+    }
+    .pt4{
+        height:35px;
+    }
+    .part3_left_bar{
+        background: url("img/Left bar/Pic Set13.png") no-repeat;
+        padding:23px;
+        margin-top:10px;
+        margin-left: 25px;
+    }
+    .part4_left_bar{
+        background: url("img/Left bar/Pic Set14.png") no-repeat;
+        padding:23px;
+        margin-top:10px;
+        margin-left: 25px;
+    }
+    .part5_left_bar{
+        background: #ffffff;
+        margin-top:10px;
+    }
+    .pic_left_bar {
+        background: url("img/Left bar/Layer 15.png") 50% no-repeat;
+        padding:18px;
+        position: relative;
+    }
+    .button_left_bar1{
+        background: #ffffff;
+    }
+    .button_left_bar2{
+        background: #ffffff;
+    }
+    .pic_left_bar1{
+        position: relative;
+        left:25px;
+        position: relative;
+        top:2px;
+    }
+    .pt1{
+        height:35px;
+    }
+    .pt2{
+        height:35px;
+    }
+    .text_leftbar1{
+        position: relative;
+        bottom:5px;
+        left:30px;
+    }
+    .text_leftbar2{
+        position: relative;
+        bottom:15px;
+        left:30px;
+        font-size: 10px;
+    }
+    .stars_left_bar1{
+        position: relative;
+        right: 10px;
+    }
+    .text_leftbar3{
+        position: relative;
+        left: 2px;
+        bottom:2px;
+        font-size: 10px;
+    }
+    .button_left_bar1{
+        position: relative;
+        top:11px;
+    }
+    .button_left_bar2{
+        position: relative;
+        top:11px;
+    }
+    .logo_left_bar2{
+        background: #ffffff;
+        padding: 5px;
+        margin-top:30px;
+    }
+    .text_leftbar9{
+        position: relative;
+        top:30px;
+        right:20px;
+        font-size: 13px;
+        color:#FFFFFF;
+    }
+    .text_leftbar10{
+        font-size: 10px;
+        position: relative;
+        top:20px;
+        right:20px;
+        color:#FFFFFF;
+    }
+    .icon_left_bar1{
+        position: relative;
+        top:35px;
+        right:20px;
+    }
+    .text_leftbar11{
+        position: relative;
+        top:30px;
+        right:20px;
+        font-size: 13px;
+        color:#FFFFFF;
+    }
+    .text_leftbar12{
+        font-size: 10px;
+        position: relative;
+        top:20px;
+        right:20px;
+        color:#FFFFFF;
+    }
+    .icon_left_bar2{
+        position: relative;
+        top:35px;
+        right:20px;
+    }
+    .separator_left_bar{
+        position: relative;
+        left:25px;
+    }
+    .prew_left_bar{
+        position: relative;
+        left:30px;
+    }
+    .text_leftbar13{
+        position: relative;
+        left:10px;
+        top:2px;
+    }
+    .separator_left_bar2{
+        width:250px;
+        position: relative;
+        left:5px;
+    }
+    .icon_left_bar{
+        position: relative;
+        top:12px;
+        left:12px;
+    }
+    .text_leftbar14{
+        position: relative;
+        top:13px;
+        left:15px;
+        color: white;
+    }
+    .text_leftbar15{
+        text-align: justify;
+    }
+    .name_magazine2{
+        position: relative;
+        left:20px;
+    }
+    .name_magazine3{
+        position: relative;
+        left:35px;
+    }
+    .name_magazine4{
+        position: relative;
+        left:45px;
+    }
+    .pic_slider{
+        position: relative;
+        right:60px;
+    }
+    .icon{
+        position: relative;
+        left:70px;
+        top:2px;
+    }
+    .district_content_pic_column1_magazine{
+        background:white;
+        padding:2px;
+    }
+}
